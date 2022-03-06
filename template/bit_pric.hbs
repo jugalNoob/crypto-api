@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/bit_pric.css">
+
+    <script src="js/bit_pric.js"></script>
+</head>
+<body>
+    
+    <div class="bar">
+
+
+        <i class="fas fa-ellipsis-v" onclick="ka()"></i>
+    </div>
+    
+    <div class="side" id="sides">
+
+
+        
+
+        <div class="cross">
+
+
+            <i class="fas fa-times" onclick="fun()"></i>
+        </div>
+     
+
+
+
+        <div class="side-nav">
+
+
+
+            <ul>
+
+                <li><a href="index.hbs">home</a></li>
+                <li><a href="fear.hbs">fear</a></li>
+                <li><a href="bit_pric.hbs">prices</a></li>
+                <li><a href="login.hbs">login</a></li>
+
+
+            </ul>
+
+
+        </div>
+    </div>
+
+
+
+    
+
+
+<!-- 
+    side nav bar -->
+<div class="crpyto">
+
+    <h1>crpytocurrency </h1>
+</div>
+
+
+<!-- 
+crpyto prices information -->
+
+
+<div class="btc-eth">
+
+
+<div class="btc">
+
+
+    <div class="name-btc">
+
+
+
+        <div class="namebtc">
+
+
+<h1>bitcoin</h1>
+        </div>
+
+
+
+        <div class="imgbtc">
+
+
+
+            <i class="fab fa-bitcoin"></i>
+        </div>
+
+    </div>
+
+<!-- price and high -->
+
+
+<div class="price-btc">
+
+    <h1>price</h1>
+
+    <h2 id="btcprice"></h2>
+
+
+
+</div>
+
+
+
+<div class="high-btc">
+
+    <h1>high-price</h1>
+
+    <h2 id="highprice"></h2>
+
+
+</div>
+
+<div class="low-btc">
+
+<h1>low-price</h1>
+<h2 id="lowprice"></h2>
+
+</div>
+
+
+<!-- price and high -->
+</div>
+
+
+
+
+
+
+<div class="eth">
+
+    <div class="name-eth">
+
+
+
+        <div class="nameeth">
+
+
+<h1>ethereum</h1>
+        </div>
+
+
+
+        <div class="imgeth">
+
+
+
+            <i class="fab fa-ethereum"></i>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="price-eth">
+
+        <h1>price</h1>
+    
+        <h2 id="ethprice"></h2>
+    
+    
+    
+    </div>
+    
+    
+    
+    <div class="high-eth">
+    
+        <h1>higheth</h1>
+    
+        <h2 id="higheth"></h2>
+    
+    
+    </div>
+    
+    <div class="low-eth">
+    
+    <h1>loweth</h1>
+    <h2 id="loweth"></h2>
+    
+    </div>
+
+
+</div>
+
+
+
+
+
+<!-- end point -->
+
+</div>
+ 
+
+
+ <!-- bnb and ada coin price information
+ -->
+
+
+ <div class="bnb-ada">
+
+
+    <div class="bnb">
+    
+    
+    
+
+        <div class="name-bnb">
+
+
+
+            <div class="namebnb">
+    
+    
+    <h1>binance</h1>
+            </div>
+    
+    
+    
+            <div class="imgbnb">
+    
+    
+    
+                <img src="https://assets.coingecko.com/coins/images/825/large/binance-coin-logo.png?1547034615" alt="">
+            </div>
+    
+        </div>
+    
+    
+<div class="price-bnb">
+
+    <h1>price</h1>
+
+    <h2 id="bnbprice"></h2>
+
+
+
+</div>
+
+
+
+<div class="high-bnb">
+
+    <h1>high-price</h1>
+
+    <h2 id="highbnb"></h2>
+
+
+</div>
+
+<div class="low-bnb">
+
+<h1>low-price</h1>
+<h2 id="lowbnb"></h2>
+
+</div>
+
+    
+    
+    </div>
+    
+    <!-- bnb price start
+    
+     -->
+
+
+
+
+
+
+
+
+    <div class="ada">
+    
+        <div class="name-ada">
+
+
+
+            <div class="nameada">
+    
+    
+    <h1>cardano</h1>
+            </div>
+    
+    
+    
+            <div class="imgada">
+    
+    
+    
+                <img src="https://assets.coingecko.com/coins/images/975/large/cardano.png?1547034860" alt="">
+            </div>
+    
+        </div>
+
+
+
+        <div class="price-ada">
+
+            <h1>price</h1>
+        
+            <h2 id="adaprice"></h2>
+        
+        
+        
+        </div>
+        
+        
+        
+        <div class="high-ada">
+        
+            <h1>high-price</h1>
+        
+            <h2 id="highada"></h2>
+        
+        
+        </div>
+        
+        <div class="low-ada">
+        
+        <h1>low-price</h1>
+        <h2 id="lowada"></h2>
+        
+        </div>
+        
+        
+    
+    
+    
+    
+    </div>
+    
+    
+
+
+    <!-- end point -->
+    
+    </div>
+     
+    
+
+
+    
+<!-- 
+/* 
+usdt and xrp coin price information */ -->
+
+
+    
+ <div class="usdt-xrp">
+
+
+    <div class="usdt">
+    
+
+
+
+        <div class="name-usdt">
+
+
+
+            <div class="nameusdt">
+    
+    
+    <h1>tether  </h1>
+            </div>
+    
+    
+    
+            <div class="imgusdt">
+    
+    
+    
+            <img src="https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707" alt="">
+            </div>
+    
+        </div>
+    
+    
+
+<div class="price-usdt">
+
+    <h1>price</h1>
+
+    <h2 id="usdtprice"></h2>
+
+
+
+</div>
+
+
+
+<div class="high-usdt">
+
+    <h1>high-price</h1>
+
+    <h2 id="highusdt"></h2>
+
+
+</div>
+
+<div class="low-usdt">
+
+<h1>low-price</h1>
+<h2 id="lowusdt"></h2>
+
+</div>
+
+
+<!-- prcie 
+ -->
+
+       
+    
+    </div>
+    
+    
+    
+    
+    <div class="xrp">
+    
+    
+        <div class="name-xrp">
+
+
+
+            <div class="namexrp">
+    
+    
+    <h1>ripple</h1>
+            </div>
+    
+    
+    
+            <div class="imgxrp">
+    
+    
+                <img src="https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1605778731" alt="">
+    
+               
+            </div>
+    
+        </div>
+    
+    
+    
+<div class="price-xrp">
+
+    <h1>price</h1>
+
+    <h2 id="xrpprice"></h2>
+
+
+
+</div>
+
+
+
+<div class="high-xrp">
+
+    <h1>high-price</h1>
+
+    <h2 id="highxrp"></h2>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="low-xrp">
+
+<h1>low-price</h1>
+<h2 id="lowxrp"></h2>
+
+</div>
+
+    
+    </div>
+    
+    <!-- price -->
+    
+
+
+    </div>
+
+
+
+
+    <!-- sol and dot coin price information
+      -->
+
+
+      
+    
+ <div class="sol-dot">
+
+
+    <div class="sol">
+    
+        <div class="name-sol">
+
+
+
+            <div class="namesol">
+    
+    
+    <h1>solana</h1>
+            </div>
+    
+    
+    
+            <div class="imgsol">
+    
+    
+    
+              <img src="https://assets.coingecko.com/coins/images/4128/large/coinmarketcap-solana-200.png?1616489452" alt="">
+            </div>
+    
+        </div>
+
+        <!-- price -->
+    
+    
+<div class="price-sol">
+
+    <h1>price</h1>
+
+    <h2 id="solprice"></h2>
+
+
+
+</div>
+
+
+
+<div class="high-sol">
+
+    <h1>high-price</h1>
+
+    <h2 id="highsol"></h2>
+
+
+</div>
+
+<div class="low-sol">
+
+<h1>low-price</h1>
+<h2 id="lowsol"></h2>
+
+</div>
+
+
+    
+    
+    </div>
+    
+    
+    
+    
+    <div class="dot">
+    
+    
+    
+        <div class="name-dot">
+
+
+
+            <div class="namedot">
+    
+    
+    <h1>polkadot</h1>
+            </div>
+    
+    
+    
+            <div class="imgdot">
+    
+    
+    
+                <img src="https://assets.coingecko.com/coins/images/12171/large/aJGBjJFU_400x400.jpg?1597804776" alt="">
+            </div>
+    
+        </div>
+    
+
+
+
+        <div class="price-dot">
+
+            <h1>price</h1>
+        
+            <h2 id="dotprice"></h2>
+        
+        
+        
+        </div>
+        
+        
+        
+        <div class="high-dot">
+        
+            <h1>high-price</h1>
+        
+            <h2 id="highdot"></h2>
+        
+        
+        </div>
+        
+        <div class="low-dot">
+        
+        <h1>low-price</h1>
+        <h2 id="lowdot"></h2>
+        
+        </div>
+        
+        
+    
+    </div>
+    
+    
+    
+    </div>
+
+
+
+
+    <!-- usdc and dog price information -->
+    
+
+      
+    
+ <div class="usdc-dog">
+
+
+    <div class="usdc">
+    
+    
+    
+        <div class="name-usdc">
+
+
+
+            <div class="nameusdc">
+    
+    
+    <h1>usd-coin</h1>
+            </div>
+    
+    
+    
+            <div class="imgusdc">
+    
+    
+    
+         
+                <img src="https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389" alt="">
+            </div>
+    
+        </div>
+    
+    
+<div class="price-usdc">
+
+    <h1>price</h1>
+
+    <h2 id="usdcprice"></h2>
+
+
+
+</div>
+
+
+
+<div class="high-usdc">
+
+    <h1>high-price</h1>
+
+    <h2 id="highusdc"></h2>
+
+
+</div>
+
+<div class="low-usdc">
+
+<h1>low-price</h1>
+<h2 id="lowusdc"></h2>
+
+</div>
+
+
+    
+    </div>
+    
+    
+    
+    
+    <div class="dog">
+    
+
+        <div class="name-dog">
+
+
+
+            <div class="namedog">
+    
+    
+    <h1>dogecoin</h1>
+            </div>
+    
+    
+    
+            <div class="imgdog">
+    
+    
+    
+              <img src="https://assets.coingecko.com/coins/images/5/large/dogecoin.png?1547792256" alt="">
+            </div>
+    
+        </div>
+    
+    
+    
+
+<div class="price-dog">
+
+    <h1>price</h1>
+
+    <h2 id="dogprice"></h2>
+
+
+
+</div>
+
+
+
+<div class="high-dog">
+
+    <h1>high-price</h1>
+
+    <h2 id="highdog"></h2>
+
+
+</div>
+
+<div class="low-dog">
+
+<h1>low-price</h1>
+<h2 id="lowdog"></h2>
+
+</div>
+
+
+    
+    
+    </div>
+    
+    
+    
+    </div>
+
+
+</body>
+</html>

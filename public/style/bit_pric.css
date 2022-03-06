@@ -1,0 +1,1646 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+body {
+
+    background-color: #edf1f4;
+    width: 100%;
+}
+
+
+.bar{
+    
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-left: 50px;
+    margin-top: 25px!important;
+    font-size:1.5rem;
+    
+    
+    }
+    
+
+/* 
+
+side nav bar start row class */
+
+
+
+.side{
+
+
+    width: 00px;
+    height: 200px;
+     z-index: 1;
+     position: fixed;
+     background-color:black;
+     top: 10px;
+     left: 10px;
+     border-radius: 15px;
+     overflow: hidden;
+     transition: all 1s ;
+
+
+}
+
+
+
+.cross{
+
+    margin-left: 180px;
+    color: white;
+    font-size: 1.3rem;
+    transition: all 1s;
+
+}
+
+
+.side-nav ul{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.side-nav ul li{
+
+    list-style: none;
+    margin: 10px;
+}
+
+
+.side-nav ul li a:link{
+
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 0.9rem;
+
+}
+
+.side-nav ul li a:visited{
+
+
+    color: white;
+
+}
+.side-nav ul li a:link:hover{
+
+
+    font-size: 1.1rem;
+    transition: all 0.5s;
+}
+
+
+
+
+/* 
+side nav bar start */
+.crpyto{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.crpyto h1{
+
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    background-color: rgb(4, 201, 201);
+    width:30%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px 5px 15px 5px;
+   
+}
+
+
+
+/* media start 860px row class */
+
+
+
+
+
+
+/* 
+
+.crpyto{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.crpyto h1{
+
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    background-color: rgba(0, 195, 255);
+    width:30%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px 5px 15px 5px;
+} */
+
+
+
+@media (max-width:860px)  and (min-width:500px){
+
+
+
+    .crpyto{
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .crpyto h1{
+    
+        color: white;
+        text-transform: capitalize;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        background-color: rgba(0, 195, 255);
+        width:30%;
+        margin: auto;
+        padding: 10px;
+        border-radius: 15px 5px 15px 5px;
+    } 
+
+
+}
+
+
+/* media start row class 500px  */
+
+
+
+
+@media (max-width:500px)  and (min-width:300px){
+
+
+
+    .crpyto{
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .crpyto h1{
+    
+        color: white;
+        text-transform: capitalize;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        background-color: rgba(0, 195, 255);
+        width:35%;
+        margin: auto;
+        padding: 10px;
+        border-radius: 15px 5px 15px 5px;
+    } 
+
+
+}
+
+
+
+/* 
+Btc & eth price information */
+
+
+
+.btc-eth{
+
+    display: flex;
+   
+    align-items: center;
+    margin:  auto;
+    justify-content: center;
+
+    margin-top: 100px;
+    flex-wrap: wrap;
+  
+    
+}
+
+.btc{
+ 
+    width: 200px;
+    background-image: linear-gradient(to bottom, rgba(0 , 0, 0, 0.05,
+    
+    #edf1f4));
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0 , 0, 0, 0.1),
+    -15px -15px 20px #fff,
+    inset -5px -5px 5px rgba(255 , 255, 255, 0.5),
+    inset 5px 5px  5px rgba(0 , 0 , 0 , 0.5);
+    margin: 50px;
+    
+    
+
+
+
+
+
+}
+
+/* price btc */
+
+.name-btc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.namebtc{
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.namebtc h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: 700;
+
+
+}
+
+
+.imgbtc{
+
+    margin-right: 10px;
+    margin-top: 10px;
+    color:rgb(255, 187, 0);
+    font-size:1.5rem
+}
+
+.imgbtc fab{
+    color:rgb(255, 187, 0);
+}
+
+
+.price-btc{
+
+    margin-left: 10px;
+
+}
+.price-btc h1{
+
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.price-btc h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.high-btc{
+    margin-left: 10px;
+
+}
+
+.high-btc h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.high-btc h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.low-btc{
+    margin-left: 10px;
+
+}
+
+.low-btc h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.low-btc h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+/* price btc */
+
+
+.eth{
+
+   
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(0 , 0, 0, 0.05,
+    
+    #edf1f4));
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0 , 0, 0, 0.1),
+    -15px -15px 20px #fff,
+    inset -5px -5px 5px rgba(255 , 255, 255, 0.5),
+    inset 5px 5px  5px rgba(0 , 0 , 0 , 0.5);
+    
+    
+
+}
+
+/* eth-price */
+
+.name-eth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nameeth{
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nameeth h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: 700;
+
+
+}
+
+
+.imgeth{
+
+    margin-right: 10px;
+    margin-top: 10px;
+    color:rgb(14, 121, 23);
+    font-size:1.5rem
+}
+
+.imgeth fab{
+    color:rgb(255, 187, 0);
+}
+
+/* eth-price */
+
+.price-eth{
+
+    margin-left: 10px;
+
+}
+.price-eth h1{
+
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.price-eth h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.high-eth{
+    margin-left: 10px;
+
+}
+
+.high-eth h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.high-eth h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.low-eth{
+    margin-left: 10px;
+
+}
+
+.low-eth h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.low-eth h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+/* eth-price */
+
+/* bnb and ada css style row class start */
+
+
+
+
+
+
+
+
+
+
+
+.bnb-ada{
+
+    display: flex;
+   
+    align-items: center;
+    margin:  auto;
+    justify-content: center;
+
+    margin-top: 70px;
+    flex-wrap: wrap;
+  
+    
+}
+
+.bnb{
+ 
+    width: 200px;
+    background-image: linear-gradient(to bottom, rgba(0 , 0, 0, 0.05,
+    
+    #edf1f4));
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0 , 0, 0, 0.1),
+    -15px -15px 20px #fff,
+    inset -5px -5px 5px rgba(255 , 255, 255, 0.5),
+    inset 5px 5px  5px rgba(0 , 0 , 0 , 0.5);
+    margin: 50px;
+    
+    
+
+
+
+
+
+}
+/* price and name
+ */
+
+
+ .name-bnb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.namebnb{
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.namebnb h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: 700;
+
+
+}
+
+
+.imgbnb{
+
+    margin-right: 10px;
+    margin-top: 10px;
+    color:rgb(255, 187, 0);
+    font-size:1.5rem
+}
+
+.imgbnb img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.price-bnb{
+
+    margin-left: 10px;
+
+}
+.price-bnb h1{
+
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.price-bnb h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.high-bnb{
+    margin-left: 10px;
+
+}
+
+.high-bnb h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.high-bnb h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.low-bnb{
+    margin-left: 10px;
+
+}
+
+.low-bnb h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.low-bnb h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+
+
+ /* price and name */
+.ada{
+
+   
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(0 , 0, 0, 0.05,
+    
+    #edf1f4));
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0 , 0, 0, 0.1),
+    -15px -15px 20px #fff,
+    inset -5px -5px 5px rgba(255 , 255, 255, 0.5),
+    inset 5px 5px  5px rgba(0 , 0 , 0 , 0.5);
+    
+    
+
+}
+
+/* pric ada */
+
+
+
+
+
+.name-ada{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nameada{
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nameada h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: 700;
+
+
+}
+
+
+
+.imgada{
+
+    margin-right: 10px;
+    margin-top: 10px;
+    color:rgb(255, 187, 0);
+    font-size:1.5rem
+}
+
+.imgada img{
+    width: 25px;
+    height: 25px;
+}
+
+.price-ada{
+
+    margin-left: 10px;
+
+}
+.price-ada h1{
+
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.price-ada h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.high-ada{
+    margin-left: 10px;
+
+}
+
+.high-ada h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.high-ada h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.low-ada{
+    margin-left: 10px;
+
+}
+
+.low-ada h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.low-ada h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+
+
+/* 
+usdt and xrp coin price information */
+
+
+
+
+
+
+
+.usdt-xrp {
+
+    display: flex;
+   
+    align-items: center;
+    margin:  auto;
+    justify-content: center;
+
+    margin-top: 70px;
+    flex-wrap: wrap;
+  
+    
+}
+
+
+
+
+.usdt{
+ 
+    width: 200px;
+    background-image: linear-gradient(to bottom, rgba(0 , 0, 0, 0.05,
+    
+    #edf1f4));
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0 , 0, 0, 0.1),
+    -15px -15px 20px #fff,
+    inset -5px -5px 5px rgba(255 , 255, 255, 0.5),
+    inset 5px 5px  5px rgba(0 , 0 , 0 , 0.5);
+    margin: 50px;
+    
+    
+
+
+
+
+
+}
+
+
+/* usedt price information */
+
+
+
+.name-usdt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nameusdt{
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nameusdt h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: 700;
+
+
+}
+
+
+.imgusdt{
+
+    margin-right: 10px;
+    margin-top: 10px;
+    color:rgb(255, 187, 0);
+    font-size:1.5rem
+}
+
+.imgusdt img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+.price-usdt{
+
+    margin-left: 10px;
+
+}
+.price-usdt h1{
+
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.price-usdt h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.high-usdt{
+    margin-left: 10px;
+
+}
+
+.high-usdt h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.high-usdt h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.low-usdt{
+    margin-left: 10px;
+
+}
+
+.low-usdt h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.low-usdt h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+
+
+/* 
+last line */
+
+.xrp{
+
+   
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(0 , 0, 0, 0.05,
+    
+    #edf1f4));
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0 , 0, 0, 0.1),
+    -15px -15px 20px #fff,
+    inset -5px -5px 5px rgba(255 , 255, 255, 0.5),
+    inset 5px 5px  5px rgba(0 , 0 , 0 , 0.5);
+    
+    
+
+}
+
+
+/* xrp rice information */
+
+
+.name-xrp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.namexrp{
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.namexrp h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: 700;
+
+
+}
+
+
+.imgxrp{
+
+    margin-right: 10px;
+    margin-top: 10px;
+    color:rgb(255, 187, 0);
+    font-size:1.5rem
+}
+
+.imgxrp img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+.price-xrp{
+
+    margin-left: 10px;
+
+}
+.price-xrp h1{
+
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.price-xrp h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.high-xrp{
+    margin-left: 10px;
+
+}
+
+.high-xrp h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.high-xrp h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.low-xrp{
+    margin-left: 10px;
+
+}
+
+.low-xrp h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.low-xrp h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+/* 
+<!-- sol and dot coin price information
+--> */
+
+
+
+
+
+
+
+
+.sol-dot {
+
+    display: flex;
+   
+    align-items: center;
+    margin:  auto;
+    justify-content: center;
+
+    margin-top: 70px;
+    flex-wrap: wrap;
+  
+    
+}
+
+.sol{
+ 
+    width: 200px;
+    background-image: linear-gradient(to bottom, rgba(0 , 0, 0, 0.05,
+    
+    #edf1f4));
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0 , 0, 0, 0.1),
+    -15px -15px 20px #fff,
+    inset -5px -5px 5px rgba(255 , 255, 255, 0.5),
+    inset 5px 5px  5px rgba(0 , 0 , 0 , 0.5);
+    margin: 50px;
+    
+    
+
+
+
+
+
+}
+
+
+/* price sol information */
+
+
+
+.name-sol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.namesol{
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.namesol h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: 700;
+
+
+}
+
+
+.imgsol{
+
+    margin-right: 10px;
+    margin-top: 10px;
+    color:rgb(255, 187, 0);
+    font-size:1.5rem
+}
+
+.imgsol img{
+    width: 25px;
+    height: 25px;
+}
+
+.price-sol{
+
+    margin-left: 10px;
+
+}
+.price-sol h1{
+
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.price-sol h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.high-sol{
+    margin-left: 10px;
+
+}
+
+.high-sol h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.high-sol h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.low-sol{
+    margin-left: 10px;
+
+}
+
+.low-sol h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.low-sol h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+
+
+/* price sol information */
+
+
+.dot{
+
+   
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(0 , 0, 0, 0.05,
+    
+    #edf1f4));
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0 , 0, 0, 0.1),
+    -15px -15px 20px #fff,
+    inset -5px -5px 5px rgba(255 , 255, 255, 0.5),
+    inset 5px 5px  5px rgba(0 , 0 , 0 , 0.5);
+    
+    
+
+}
+
+
+/* price dot information */
+
+
+
+.name-dot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.namedot{
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.namedot h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: 700;
+
+
+}
+
+
+.imgdot{
+
+    margin-right: 10px;
+    margin-top: 10px;
+    color:rgb(255, 187, 0);
+    font-size:1.5rem
+}
+
+.imgdot img{
+    width: 25px;
+    height: 25px;
+}
+
+.price-dot{
+
+    margin-left: 10px;
+
+}
+.price-dot h1{
+
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.price-dot h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.high-dot{
+    margin-left: 10px;
+
+}
+
+.high-dot h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.high-dot h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.low-dot{
+    margin-left: 10px;
+
+}
+
+.low-dot h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.low-dot h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+
+
+/* usdc and dog coin price information */
+
+
+
+
+
+
+.usdc-dog {
+
+    display: flex;
+   
+    align-items: center;
+    margin:  auto;
+    justify-content: center;
+
+    margin-top: 70px;
+    flex-wrap: wrap;
+  
+    
+}
+
+.usdc{
+ 
+    width: 200px;
+    background-image: linear-gradient(to bottom, rgba(0 , 0, 0, 0.05,
+    
+    #edf1f4));
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0 , 0, 0, 0.1),
+    -15px -15px 20px #fff,
+    inset -5px -5px 5px rgba(255 , 255, 255, 0.5),
+    inset 5px 5px  5px rgba(0 , 0 , 0 , 0.5);
+    margin: 50px;
+    
+    
+
+
+
+
+
+}
+
+
+/* 
+usdc price information
+ */
+
+
+ .name-usdc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nameusdc{
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nameusdc h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: 700;
+
+
+}
+
+.imgusdc{
+
+    margin-right: 10px;
+    margin-top: 10px;
+    color:rgb(255, 187, 0);
+    font-size:1.5rem
+}
+
+.imgusdc img{
+    width: 25px;
+    height: 25px;
+}
+
+.price-usdc{
+
+    margin-left: 10px;
+
+}
+.price-usdc h1{
+
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.price-usdc h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.high-usdc{
+    margin-left: 10px;
+
+}
+
+.high-usdc h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.high-usdc h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.low-usdc{
+    margin-left: 10px;
+
+}
+
+.low-usdc h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.low-usdc h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+ /* 
+usdc price information
+ */
+
+.dog{
+
+   
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgba(0 , 0, 0, 0.05,
+    
+    #edf1f4));
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px rgba(0 , 0, 0, 0.1),
+    -15px -15px 20px #fff,
+    inset -5px -5px 5px rgba(255 , 255, 255, 0.5),
+    inset 5px 5px  5px rgba(0 , 0 , 0 , 0.5);
+    
+    
+
+}
+
+/* 
+dog price information
+ */
+
+
+
+ .name-dog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.namedog{
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.namedog h1{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size:1.5rem;
+    font-weight: 700;
+
+
+}
+
+.imgdog{
+
+    margin-right: 10px;
+    margin-top: 10px;
+    color:rgb(255, 187, 0);
+    font-size:1.5rem
+}
+
+.imgdog img{
+    width: 25px;
+    height: 25px;
+}
+
+.price-dog{
+
+    margin-left: 10px;
+
+}
+.price-dog h1{
+
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+
+.price-dog h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.high-dog{
+    margin-left: 10px;
+
+}
+
+.high-dog h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.high-dog h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+.low-dog{
+    margin-left: 10px;
+
+}
+
+.low-dog h1{
+    font-size:1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+.low-dog h2{
+
+    font-size:1.3rem;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+ /* 
+dog price information
+ */
